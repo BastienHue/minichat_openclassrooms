@@ -19,7 +19,7 @@
 
 	<?php 
 	try {
-		$bdd = new PDO('mysql:host=localhost;dbname=MiniChat;charset=utf8', 'skohl', 'Samurai-83');
+		$bdd = new PDO('mysql:host=localhost;dbname=MiniChat;charset=utf8', '', '');
 	}
 	catch(exception $e)
 	{
